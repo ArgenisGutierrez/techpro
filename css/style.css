@@ -380,6 +380,7 @@ img {
 
 .texto-newsletter {
   grid-row: 2/3;
+  padding: 1rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -407,3 +408,17 @@ img {
   border: none;
 }
 
+/* Footer */
+.footer p {
+  color: var(--primary);
+  margin-top: 15rem;
+  text-align: center;
+  font-family: Roboto-Bold;
+  font-size: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer{
+  margin-top: 0;
+  }
+}
